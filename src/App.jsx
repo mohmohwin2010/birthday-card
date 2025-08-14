@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import confetti from "canvas-confetti";
 import myPhoto from "./assets/mymessage.jpeg";
+// import myMusic from "../public/birthdaysong.mp3";
 import "./App.css";
 
 export default function App() {
@@ -33,7 +34,7 @@ export default function App() {
     <>
       {/* BG music (place /public/music.mp3) */}
       <audio autoPlay loop playsInline>
-        <source src="/music.mp3" type="audio/mpeg" />
+        <source src="/birthdaysong.mp3" type="audio/mpeg" />
       </audio>
 
       {/* Animated background */}
