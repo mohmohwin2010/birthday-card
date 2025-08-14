@@ -62,7 +62,7 @@ body{
   padding:42px clamp(20px, 4vw, 56px);
   box-shadow: var(--shadow);
   position:relative;
-  margin-left: 20rem;
+  margin-left: 15rem;
 }
 
 /* ===== Typography ===== */
